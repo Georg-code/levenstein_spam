@@ -6,7 +6,7 @@ use std::io;
 
 fn main() {
     let mut input_text = String::new();
-    println!("Enter a long text:");
+    println!("Enter Email: ");
     io::stdin()
         .read_line(&mut input_text)
         .expect("Failed to read line");
